@@ -13,7 +13,7 @@ const Category = lazy(() => import('@pages/category'));
 const Users = lazy(() => import('@pages/users'));
 // const Bots = lazy(() => import('@pages/bots'));
 const Servers = lazy(() => import('@pages/servers'));
-const Login = lazy(() => import('@pages/login'));
+// const Login = lazy(() => import('@pages/login'));
 const Profile = lazy(() => import('@pages/profile'));
 
 const withSuspense = (element: React.ReactNode) => (
@@ -25,7 +25,7 @@ export const router = createBrowserRouter([
     path: RouterPath.ROOT,
     element: <App />,
     children: [
-      { path: RouterPath.LOGIN, element: withSuspense(<Login />) },
+      // { path: RouterPath.LOGIN, element: withSuspense(<Login />) },
 
       {
         element: <RequireAuth />,

@@ -25,8 +25,12 @@ export const router = createBrowserRouter([
     path: RouterPath.ROOT,
     element: <App />,
     children: [
-      // { path: RouterPath.LOGIN, element: withSuspense(<Login />) },
-
+          { path: RouterPath.LOGIN, element: withSuspense(<Login />) },
+          { path: RouterPath.CATEGORY, element: withSuspense(<Category />) },
+          { path: RouterPath.USERS, element: withSuspense(<Users />) },
+          { path: RouterPath.BOTS, element: withSuspense(<Bots />) },
+          { path: RouterPath.SERVERS, element: withSuspense(<Servers />) },
+          { path: RouterPath.ROOT, element: withSuspense(<Profile />) },
       {
         element: <RequireAuth />,
         children: [

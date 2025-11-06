@@ -1,0 +1,15 @@
+.cardLead {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 15px;
+    gap: 20px;
+    .title {
+        font-size: 35px;
+    }
+    .count {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@app": ["app"],
+      "@app/*": ["app/*"],
+      "@pages": ["pages"],
+      "@pages/*": ["pages/*"],
+      "@widgets": ["widgets"],
+      "@widgets/*": ["widgets/*"],
+      "@features": ["features"],
+      "@features/*": ["features/*"],
+      "@entities": ["entities"],
+      "@entities/*": ["entities/*"],
+      "@shared": ["shared"],
+      "@shared/*": ["shared/*"]
+    },
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": false,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "noEmit": true,
+    "isolatedModules": true
+  },
+  "include": ["src"]
+}

@@ -1,0 +1,28 @@
+.navMenu {
+  width: 100%;
+  background: var(--color-primary);
+
+  :global(.ant-menu-item) {
+    opacity: 40%;
+  }
+
+  :global(.ant-menu-submenu) {
+    opacity: 40%;
+  }
+  :global(.ant-menu-submenu-open) {
+    opacity: 100%;
+  }
+
+  :global(.ant-menu-title-content) {
+    color: var(--white) !important;
+  }
+
+  :global(.ant-menu-submenu-arrow) {
+    color: var(--white) !important;
+  }
+
+  :global(.ant-menu-item-selected) {
+    background: var(--grey);
+    opacity: 100%;
+  }
+}
